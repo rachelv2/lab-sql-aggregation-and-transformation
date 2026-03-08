@@ -3,8 +3,8 @@ USE sakila;
 -- Challenge 1
 -- 1.1 Shortest and longest movie durations
 SELECT 
-    MAX(length) AS max_duration,
-    MIN(length) AS min_duration
+    MIN(length) AS min_duration,
+    MAX(length) AS max_duration
 FROM film;
 
 -- 1.2 Average movie duration in hours and minutes (no decimals)
